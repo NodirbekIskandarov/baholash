@@ -1,0 +1,24 @@
+.map_part {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.map_part iframe {
+  width: 60%;
+}
+.info {
+  margin-top: 30px;
+}
+.info h1 {
+  margin-bottom: 20px;
+}
+.info button {
+  margin-top: 20px;
+  width: 310px;
+  padding: 10px 0;
+  background-color: #c3954c;
+  color: white;
+  font-size: 20px;
+  border-radius: 30px;
+  border: none;
+}

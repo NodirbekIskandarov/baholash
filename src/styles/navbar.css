@@ -1,0 +1,77 @@
+.navbar, .navbar ul {
+    display: flex;
+    align-items: center;
+}
+.father_navbar {
+    width: 100%;
+    background-color: white;
+    transition: background-color 0.3s ease;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+.scrolled {
+    background-color: #c3954c; /* Your background color when scrolled */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow when scrolled */
+  }
+
+.list {
+    list-style-type: none;
+    padding-top: 13px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar button {
+    width: 200px;
+    height: 40px;
+    background-color: #c3954c;
+    color: white;
+    border-radius: 18px;
+    border: 1px solid white;
+}
+.navbar button:hover {
+    background-color: white;
+    border: 1px solid #c3954c;
+    color: #c3954c;
+    transition: 0.2s;
+}
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+.navbar a:hover {
+    color: #c3954c;
+    transition: 0.2s;
+}
+.modal_info_part {
+    width: 80%;
+    margin: 0 auto;
+}
+.modal_info_part input {
+    padding: 5px 10px 5px 10px;
+    width: 100%;
+    border: 1px solid orange;
+    border-radius: 15px;
+    margin: 10px 0;
+}
+.send {
+    margin-top: 40px;
+    margin-left: 165px;
+    width: 200px;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: orange;
+    font-size: 20px;
+    color: black;
+}
+.send:hover {
+    background-color: white;
+    transition: 0.2s;
+    border: 1px solid orange;
+}

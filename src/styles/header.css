@@ -1,0 +1,44 @@
+.header {
+    margin-top: 120px;
+    background-image: url("https://tr.expert/img/main-parall-2.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+}
+.cloud {
+    background-image: url('https://tr.expert/img/main-parall-4.png');
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.header h2 {
+    font-size: 45px;
+    margin-bottom: 70px;
+}
+.header h2 span {
+    color: #a18d4c;
+}
+.header p {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+.header_left_side {
+    width: 877px;
+    padding-top: 100px;
+}
+.header_left_side button {
+    width: 300px;
+    height: 58px;
+    background-color: #a18d4c;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-top: 100px;
+}
+.header_left_side button:hover {
+    background-color: white;
+    color: #a18d4c;
+    border: 1px solid #a18d4c;
+    transition: 0.2s;
+}

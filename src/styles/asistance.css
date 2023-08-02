@@ -1,0 +1,28 @@
+.slide {
+    width: 240px;
+    height: 200px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 18px;
+    border-bottom: 1px solid black;
+    margin: 10px 0;
+}
+.s_f {
+    padding: 15px;
+}
+.slide .image {
+    width: 90px;
+    height: 90px;
+    margin: 20px auto;
+}
+.slide p {
+    text-align: center;
+}
+.father_slide {
+    background-color: rgba(229, 212, 140, 0.27);
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+h1 {
+    margin-top: 50px!important;
+}
